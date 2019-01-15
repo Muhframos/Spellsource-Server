@@ -138,25 +138,8 @@ public class DeckFormat implements Serializable, Cloneable {
 			.withName("Spellsource")
 			.withCardSets(
 					Collections.unmodifiableSet(EnumSet.of(
-							BASIC,
-							CLASSIC,
-							REWARD,
-							PROMO,
-							NAXXRAMAS,
-							GOBLINS_VS_GNOMES,
-							BLACKROCK_MOUNTAIN,
-							THE_GRAND_TOURNAMENT,
-							LEAGUE_OF_EXPLORERS,
-							THE_OLD_GODS,
-							ONE_NIGHT_IN_KARAZHAN,
-							MEAN_STREETS_OF_GADGETZAN,
-							JOURNEY_TO_UNGORO,
-							KNIGHTS_OF_THE_FROZEN_THRONE,
-							KOBOLDS_AND_CATACOMBS,
-							WITCHWOOD,
-							BOOMSDAY_PROJECT,
-							RASTAKHANS_RUMBLE,
-							HALL_OF_FAME,
+							SANDS_OF_TIME,
+							BATTLE_FOR_ASHENVALE,
 							CardSet.CUSTOM
 					))
 			);
