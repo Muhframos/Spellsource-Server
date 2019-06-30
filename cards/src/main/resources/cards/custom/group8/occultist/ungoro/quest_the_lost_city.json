@@ -4,7 +4,7 @@
   "type": "SPELL",
   "heroClass": "DARKGREEN",
   "rarity": "LEGENDARY",
-  "description": "Quest: Take damage from your cards 7 times. Reward: Ghatanothoa.",
+  "description": "Quest: Take damage from your cards 5 times. Reward: Ghatanothoa.",
   "quest": {
     "class": "DamageReceivedTrigger",
     "queueCondition": {
@@ -31,7 +31,7 @@
     "targetEntityType": "HERO",
     "targetPlayer": "SELF"
   },
-  "countUntilCast": 7,
+  "countUntilCast": 5,
   "targetSelection": "NONE",
   "spell": {
     "class": "ReceiveCardSpell",
